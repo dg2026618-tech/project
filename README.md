@@ -4,11 +4,11 @@ e = box(size = vec(12,15,12), color = color.cyan, pos = vec(0,0,0))#elevator
 
 #box(size = vec(10,15,0.5), color = color.cyan, pos = vec(0,-7,6.5),opacity = 0.1)
 
-box(size = vec(0.5,150,50), pos = vec(25,0,31),opacity = 1)#wall(out)
-box(size = vec(0.5,150,50), pos = vec(-25,0,31),opacity = 1)
+box(size = vec(0.5,150,50), pos = vec(25,0,31),opacity = 1)#right
+box(size = vec(0.5,150,50), pos = vec(-25,0,31),opacity = 1)#left
 
-box(size = vec(19,150,0.5), pos = vec(16,0,6),opacity = 1)
-box(size = vec(19,150,0.5), pos = vec(-16,0,6),opacity = 1)
+box(size = vec(19,150,0.5), pos = vec(16,0,6),opacity = 0.5)#r-back
+box(size = vec(19,150,0.5), pos = vec(-16,0,6),opacity = 0.5)#l-back
 
 box(size = vec(50,0.5,50), pos = vec(0,15,31),opacity = 1)#f6
 box(size = vec(50,0.5,50), pos = vec(0,-15,31),opacity = 1)#f5
@@ -20,10 +20,22 @@ box(size = vec(50,0.5,50), pos = vec(0,-75,31),opacity = 1)#f1
 box(size = vec(0.5,150,12), opacity = 1, pos = vec(6.5,0,0))#wall(in)
 box(size = vec(0.5,150,12), opacity = 1, pos = vec(-6.5,0,0))
 box(size = vec(13,150,0.5), opacity = 1, pos = vec(0,0,-6.5))
-box(size = vec(19,15,0.5), pos = vec(0,7.5,6),opacity = 1)
+box(size = vec(13,15,0.5), pos = vec(0,7.5,6),opacity = 0.5)#f3 
+box(size = vec(13,15,0.5), pos = vec(0,37.5,6),opacity = 0.5)
+box(size = vec(13,15,0.5), pos = vec(0,67.5,6),opacity = 0.5)
+box(size = vec(13,15,0.5), pos = vec(0,-22.5,6),opacity = 0.5)
+box(size = vec(13,15,0.5), pos = vec(0,-52.5,6),opacity = 0.5)
 #box(size = vec(13,150,0.5), opacity = 0.5, pos = vec(0,0,0))
 #v1 = vector(0.1, 4, 0)
 #k = keysdown()
+
+#mesage
+while 1:
+    if e.pos == vec(0,15,31):
+        e.pos == vec(0,15.01,31)
+        print("f6")
+        break
+#print() 실행이 계속되면서 랙때문에 들어가지지 않음
 
 #control
 while 1:
@@ -34,6 +46,7 @@ while 1:
     if 's' in k:
         e.pos.y = e.pos.y - 1
     if '1' in k:#-67
+#        print("floor 1")
         for i in range(0,1000):
             if e.pos.y < -67:
                 rate(50)
@@ -46,6 +59,7 @@ while 1:
                 if e.pos.y == -67:
                     break
     if '2' in k:#-37
+#        print("floor 2")
         for i in range(0,1000):
             if e.pos.y < -37:
                 rate(50)
@@ -58,6 +72,7 @@ while 1:
                 if e.pos.y == -37:
                     break
     if '3' in k:#-7
+#        print("floor 3")
         for i in range(0,1000):
             if e.pos.y < -7:
                 rate(50)
@@ -70,6 +85,7 @@ while 1:
                 if e.pos.y == -7:
                     break
     if '4' in k:#23
+#        print("floor 4")
         for i in range(0,1000):
             if e.pos.y < 23:
                 rate(50)
@@ -82,6 +98,7 @@ while 1:
                 if e.pos.y == 23:
                     break
     if '5' in k:#53
+#        print("floor 5")
         for i in range(0,1000):
             if e.pos.y < 53:
                 rate(50)
