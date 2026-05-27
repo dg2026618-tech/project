@@ -58,8 +58,13 @@ while 1:
     #각 층에 도착했을때 층 수 프린트
     if e.pos == vec(0,-67,0):
         print("1층입니다")
-        f1l.pos.x = f1l.pos.x -5
-        f1r.pos.x = f1r.pos.x + 5
+        f1l.pos.x = f1l.pos.x -1
+        f1r.pos.x = f1r.pos.x + 1
+        if f1l.pos.x == 8.25
+            f1l.pos.x = 8.25
+        if f1r.pos.x == -1.75
+            f1r.pos.x = -1.75
+        
     if e.pos == vec(0,-37,0):
         print("2층입니다")
     if e.pos == vec(0,-7,0):
