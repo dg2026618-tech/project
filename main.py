@@ -50,7 +50,7 @@ box(size = vec(0.5,150,0.5),color = vec(21/255,0/255,255/255))
 #    if e.pos == vec(0,-75,31):
 #        print("f6")
 #실행하면 랙걸려서 멈춤
-
+dddd = 1
 #control
 while 1:
     k = keysdown()
@@ -58,12 +58,12 @@ while 1:
     #각 층에 도착했을때 층 수 프린트
     if e.pos == vec(0,-67,0):
         print("1층입니다")
-        f1l.pos.x = f1l.pos.x -1
-        f1r.pos.x = f1r.pos.x + 1
+        f1l.pos.x = f1l.pos.x -dddd
+        f1r.pos.x = f1r.pos.x +dddd
         if f1l.pos.x == 8.25:
-            f1l.pos.x = f1l.pos.x +1
-        if f1r.pos.x == -1.75:
-            f1r.pos.x = f1r.pos.x -1
+            dddd = 0
+        # if f1r.pos.x == -1.75:
+        #     f1r.pos.x = f1r.pos.x -dddd
         
     if e.pos == vec(0,-37,0):
         print("2층입니다")
