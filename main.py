@@ -60,7 +60,7 @@ while 1:
         print("1층입니다")
         f1l.pos.x = f1l.pos.x -dddd
         f1r.pos.x = f1r.pos.x +dddd
-        if f1l.pos.x == 8.25:
+        if f1l.pos.x >= 8.25:
             dddd = 0
         # if f1r.pos.x == -1.75:
         #     f1r.pos.x = f1r.pos.x -dddd
