@@ -63,9 +63,9 @@ while 1:
         # if f1l.pos.x >= 8.25:
         #     dddd = 0
         if f1r.pos.x >= 8.25:
-            f1r.pos.x = f1l.pos.x +1
+            f1r.pos.x = 0
         if f1l.pos.x <= -1.75:
-            f1l.pos.x = f1r.pos.x -1
+            f1l.pos.x = 0
         f1l.pos.x = f1l.pos.x -1
         f1r.pos.x = f1r.pos.x +1
        
