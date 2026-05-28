@@ -58,7 +58,6 @@ while 1:
     #각 층에 도착했을때 층 수 프린트
     if e.pos == vec(0,-67,0):
         print("1층입니다")
-
         if f1r.pos.x >= 8.25:
             f1r.pos.x = 8.25
         if f1l.pos.x <= -8.25:
@@ -69,12 +68,36 @@ while 1:
         
     if e.pos == vec(0,-37,0):
         print("2층입니다")
+        if f2r.pos.x >= 8.25:
+            f2r.pos.x = 8.25
+        if f2l.pos.x <= -8.25:
+            f2l.pos.x = -8.25
+        f2l.pos.x = f2l.pos.x -1
+        f2r.pos.x = f2r.pos.x +1
     if e.pos == vec(0,-7,0):
         print("3층입니다")
+        if f3r.pos.x >= 8.25:
+            f3r.pos.x = 8.25
+        if f3l.pos.x <= -8.25:
+            f3l.pos.x = -8.25
+        f3l.pos.x = f3l.pos.x -1
+        f3r.pos.x = f3r.pos.x +1
     if e.pos == vec(0,23,0):
         print("4층입니다")
+        if f4r.pos.x >= 8.25:
+            f4r.pos.x = 8.25
+        if f4l.pos.x <= -8.25:
+            f4l.pos.x = -8.25
+        f4l.pos.x = f4l.pos.x -1
+        f4r.pos.x = f4r.pos.x +1
     if e.pos == vec(0,53,0):
         print("5층입니다")
+        if f5r.pos.x >= 8.25:
+            f5r.pos.x = 8.25
+        if f5l.pos.x <= -8.25:
+            f5l.pos.x = -8.25
+        f5l.pos.x = f5l.pos.x -1
+        f5r.pos.x = f5r.pos.x +1
 
         
     if 'w' in k:
