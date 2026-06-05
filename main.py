@@ -150,34 +150,34 @@ while 1:
                     break
             f1l.pos.x = f1l.pos.x +1
             f1r.pos.x = f1r.pos.x -1
-            if f1r.pos.x == 3.25:
+            if f1r.pos.x <= 3.25:
                 f1r.pos.x = 3.25
-            if f1l.pos.x == -3.25:
+            if f1l.pos.x >= -3.25:
                 f1l.pos.x = -3.25
             f2l.pos.x = f2l.pos.x +1
             f2r.pos.x = f2r.pos.x -1
-            if f2r.pos.x == 3.25:
+            if f2r.pos.x <= 3.25:
                 f2r.pos.x = 3.25
-            if f2l.pos.x == -3.25:
+            if f2l.pos.x >= -3.25:
                 f2l.pos.x = -3.25
             f3l.pos.x = f3l.pos.x +1
             f3r.pos.x = f3r.pos.x -1
-            if f3r.pos.x == 3.25:
+            if f3r.pos.x <= 3.25:
                 f3r.pos.x = 3.25
-            if f3l.pos.x == -3.25:
+            if f3l.pos.x >= -3.25:
                 f3l.pos.x = -3.25
             f4l.pos.x = f4l.pos.x +1
             f4r.pos.x = f4r.pos.x -1
-            if f4r.pos.x == 3.25:
+            if f4r.pos.x <= 3.25:
                 f4r.pos.x = 3.25
-            if f4l.pos.x == -3.25:
+            if f4l.pos.x >= -3.25:
                 f4l.pos.x = -3.25
     
             f5l.pos.x = f5l.pos.x +1
             f5r.pos.x = f5r.pos.x -1
-            if f5r.pos.x == 3.25:
+            if f5r.pos.x <= 3.25:
                 f5r.pos.x = 3.25
-            if f5l.pos.x == -3.25:
+            if f5l.pos.x >= -3.25:
                 f5l.pos.x = -3.25
     if '2' in k:#-37
 #        print("floor 2")
@@ -194,34 +194,34 @@ while 1:
                     break
             f1l.pos.x = f1l.pos.x +1
             f1r.pos.x = f1r.pos.x -1
-            if f1r.pos.x == 3.25:
+            if f1r.pos.x <= 3.25:
                 f1r.pos.x = 3.25
-            if f1l.pos.x == -3.25:
+            if f1l.pos.x >= -3.25:
                 f1l.pos.x = -3.25
             f2l.pos.x = f2l.pos.x +1
             f2r.pos.x = f2r.pos.x -1
-            if f2r.pos.x == 3.25:
+            if f2r.pos.x <= 3.25:
                 f2r.pos.x = 3.25
-            if f2l.pos.x == -3.25:
+            if f2l.pos.x >= -3.25:
                 f2l.pos.x = -3.25
             f3l.pos.x = f3l.pos.x +1
             f3r.pos.x = f3r.pos.x -1
-            if f3r.pos.x == 3.25:
+            if f3r.pos.x <= 3.25:
                 f3r.pos.x = 3.25
-            if f3l.pos.x == -3.25:
+            if f3l.pos.x >= -3.25:
                 f3l.pos.x = -3.25
             f4l.pos.x = f4l.pos.x +1
             f4r.pos.x = f4r.pos.x -1
-            if f4r.pos.x == 3.25:
+            if f4r.pos.x <= 3.25:
                 f4r.pos.x = 3.25
-            if f4l.pos.x == -3.25:
+            if f4l.pos.x >= -3.25:
                 f4l.pos.x = -3.25
     
             f5l.pos.x = f5l.pos.x +1
             f5r.pos.x = f5r.pos.x -1
-            if f5r.pos.x == 3.25:
+            if f5r.pos.x <= 3.25:
                 f5r.pos.x = 3.25
-            if f5l.pos.x == -3.25:
+            if f5l.pos.x >= -3.25:
                 f5l.pos.x = -3.25
     if '3' in k:#-7
 #        print("floor 3")
@@ -238,34 +238,34 @@ while 1:
                     break
             f1l.pos.x = f1l.pos.x +1
             f1r.pos.x = f1r.pos.x -1
-            if f1r.pos.x == 3.25:
+            if f1r.pos.x <= 3.25:
                 f1r.pos.x = 3.25
-            if f1l.pos.x == -3.25:
+            if f1l.pos.x >= -3.25:
                 f1l.pos.x = -3.25
             f2l.pos.x = f2l.pos.x +1
             f2r.pos.x = f2r.pos.x -1
-            if f2r.pos.x == 3.25:
+            if f2r.pos.x <= 3.25:
                 f2r.pos.x = 3.25
-            if f2l.pos.x == -3.25:
+            if f2l.pos.x >= -3.25:
                 f2l.pos.x = -3.25
             f3l.pos.x = f3l.pos.x +1
             f3r.pos.x = f3r.pos.x -1
-            if f3r.pos.x == 3.25:
+            if f3r.pos.x <= 3.25:
                 f3r.pos.x = 3.25
-            if f3l.pos.x == -3.25:
+            if f3l.pos.x >= -3.25:
                 f3l.pos.x = -3.25
             f4l.pos.x = f4l.pos.x +1
             f4r.pos.x = f4r.pos.x -1
-            if f4r.pos.x == 3.25:
+            if f4r.pos.x <= 3.25:
                 f4r.pos.x = 3.25
-            if f4l.pos.x == -3.25:
+            if f4l.pos.x >= -3.25:
                 f4l.pos.x = -3.25
     
             f5l.pos.x = f5l.pos.x +1
             f5r.pos.x = f5r.pos.x -1
-            if f5r.pos.x == 3.25:
+            if f5r.pos.x <= 3.25:
                 f5r.pos.x = 3.25
-            if f5l.pos.x == -3.25:
+            if f5l.pos.x >= -3.25:
                 f5l.pos.x = -3.25
     if '4' in k:#23
 #        print("floor 4")
@@ -282,34 +282,34 @@ while 1:
                     break
             f1l.pos.x = f1l.pos.x +1
             f1r.pos.x = f1r.pos.x -1
-            if f1r.pos.x == 3.25:
+            if f1r.pos.x <= 3.25:
                 f1r.pos.x = 3.25
-            if f1l.pos.x == -3.25:
+            if f1l.pos.x >= -3.25:
                 f1l.pos.x = -3.25
             f2l.pos.x = f2l.pos.x +1
             f2r.pos.x = f2r.pos.x -1
-            if f2r.pos.x == 3.25:
+            if f2r.pos.x <= 3.25:
                 f2r.pos.x = 3.25
-            if f2l.pos.x == -3.25:
+            if f2l.pos.x >= -3.25:
                 f2l.pos.x = -3.25
             f3l.pos.x = f3l.pos.x +1
             f3r.pos.x = f3r.pos.x -1
-            if f3r.pos.x == 3.25:
+            if f3r.pos.x <= 3.25:
                 f3r.pos.x = 3.25
-            if f3l.pos.x == -3.25:
+            if f3l.pos.x >= -3.25:
                 f3l.pos.x = -3.25
             f4l.pos.x = f4l.pos.x +1
             f4r.pos.x = f4r.pos.x -1
-            if f4r.pos.x == 3.25:
+            if f4r.pos.x <= 3.25:
                 f4r.pos.x = 3.25
-            if f4l.pos.x == -3.25:
+            if f4l.pos.x >= -3.25:
                 f4l.pos.x = -3.25
     
             f5l.pos.x = f5l.pos.x +1
             f5r.pos.x = f5r.pos.x -1
-            if f5r.pos.x == 3.25:
+            if f5r.pos.x <= 3.25:
                 f5r.pos.x = 3.25
-            if f5l.pos.x == -3.25:
+            if f5l.pos.x >= -3.25:
                 f5l.pos.x = -3.25
     if '5' in k:#53
 #        print("floor 5")
@@ -326,32 +326,32 @@ while 1:
                     break
             f1l.pos.x = f1l.pos.x +1
             f1r.pos.x = f1r.pos.x -1
-            if f1r.pos.x == 3.25:
+            if f1r.pos.x <= 3.25:
                 f1r.pos.x = 3.25
-            if f1l.pos.x == -3.25:
+            if f1l.pos.x >= -3.25:
                 f1l.pos.x = -3.25
             f2l.pos.x = f2l.pos.x +1
             f2r.pos.x = f2r.pos.x -1
-            if f2r.pos.x == 3.25:
+            if f2r.pos.x <= 3.25:
                 f2r.pos.x = 3.25
-            if f2l.pos.x == -3.25:
+            if f2l.pos.x >= -3.25:
                 f2l.pos.x = -3.25
             f3l.pos.x = f3l.pos.x +1
             f3r.pos.x = f3r.pos.x -1
-            if f3r.pos.x == 3.25:
+            if f3r.pos.x <= 3.25:
                 f3r.pos.x = 3.25
-            if f3l.pos.x == -3.25:
+            if f3l.pos.x >= -3.25:
                 f3l.pos.x = -3.25
             f4l.pos.x = f4l.pos.x +1
             f4r.pos.x = f4r.pos.x -1
-            if f4r.pos.x == 3.25:
+            if f4r.pos.x <= 3.25:
                 f4r.pos.x = 3.25
-            if f4l.pos.x == -3.25:
+            if f4l.pos.x >= -3.25:
                 f4l.pos.x = -3.25
     
             f5l.pos.x = f5l.pos.x +1
             f5r.pos.x = f5r.pos.x -1
-            if f5r.pos.x == 3.25:
+            if f5r.pos.x <= 3.25:
                 f5r.pos.x = 3.25
-            if f5l.pos.x == -3.25:
+            if f5l.pos.x >= -3.25:
                 f5l.pos.x = -3.25
