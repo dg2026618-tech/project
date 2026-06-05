@@ -1,6 +1,6 @@
 Web VPython 3.2
 
-e = box(size = vec(12,15,12), color = vec(48/255, 82/255, 57/255), pos = vec(0,0,0))#elevator
+p = box(size = vec(12,15,12), color = vec(48/255, 82/255, 57/255), pos = vec(0,0,0))#elevator
 
 #box(size = vec(10,15,0.5), color = color.cyan, pos = vec(0,-7,6.5),opacity = 0.1)
 
@@ -42,7 +42,9 @@ f2l = box(size = vec(6.5,15,0.5), pos = vec(-3.25,-37.5,6),opacity = 1.5, color 
 f1r = box(size = vec(6.5,15,0.5), pos = vec(3.25,-67.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#1층 오른쪽
 f1l =box(size = vec(6.5,15,0.5), pos = vec(-3.25,-67.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#1층 왼쪽
 #와이어
-box(size = vec(0.5,150,0.5),color = vec(21/255,0/255,255/255))
+o = box(size = vec(1,17,1),color = vec(255/255,255/255,255/255))
+w = box(size = vec(.5,150,.5),color = vec(0/255,0/255,0/255))
+e = compound([p,o])
 
 #mesage
 #while 1:
