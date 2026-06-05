@@ -1,6 +1,6 @@
 Web VPython 3.2
 
-e = box(size = vec(12,15,12), color = color.cyan, pos = vec(0,0,0))#elevator
+e = box(size = vec(12,15,12), color = vec(48/255, 82/255, 57/255), pos = vec(0,0,0))#elevator
 
 #box(size = vec(10,15,0.5), color = color.cyan, pos = vec(0,-7,6.5),opacity = 0.1)
 
@@ -31,16 +31,16 @@ box(size = vec(13,15,0.5), pos = vec(0,-52.5,6),opacity = 0.5)#1 층 후면 벽
 a = 86
 b = 93
 c = 94
-f3r = box(size = vec(6.5,15,0.5), pos = vec(3.25,-7.5,6),opacity = 0.5, color = vec(a/255, b/255, c/255))#3층 오른쪽
-f3l = box(size = vec(6.5,15,0.5), pos = vec(-3.25,-7.5,6),opacity = 0.5, color = vec(a/255, b/255, c/255))#3층 왼쪽
-f4r = box(size = vec(6.5,15,0.5), pos = vec(3.25,22.5,6),opacity = 0.5, color = vec(a/255, b/255, c/255))#4층 오른쪽
-f4l = box(size = vec(6.5,15,0.5), pos = vec(-3.25,22.5,6),opacity = 0.5, color = vec(a/255, b/255, c/255))#4층 왼쪽
-f5r = box(size = vec(6.5,15,0.5), pos = vec(3.25,55.5,6),opacity = 0.5, color = vec(a/255, b/255, c/255))#5층 오른쪽
-f5l = box(size = vec(6.5,15,0.5), pos = vec(-3.25,55.5,6),opacity = 0.5, color = vec(a/255, b/255, c/255))#5층 왼쪽
-f2r = box(size = vec(6.5,15,0.5), pos = vec(3.25,-37.5,6),opacity = 0.5, color = vec(a/255, b/255, c/255))#2층 오른쪽
-f2l = box(size = vec(6.5,15,0.5), pos = vec(-3.25,-37.5,6),opacity = 0.5, color = vec(a/255, b/255, c/255))#2층 왼쪽
-f1r = box(size = vec(6.5,15,0.5), pos = vec(3.25,-67.5,6),opacity = 0.5, color = vec(a/255, b/255, c/255))#1층 오른쪽
-f1l =box(size = vec(6.5,15,0.5), pos = vec(-3.25,-67.5,6),opacity = 0.5, color = vec(a/255, b/255, c/255))#1층 왼쪽
+f3r = box(size = vec(6.5,15,0.5), pos = vec(3.25,-7.5,6),opacity = 1, color = vec(a/255, b/255, c/255))#3층 오른쪽
+f3l = box(size = vec(6.5,15,0.5), pos = vec(-3.25,-7.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#3층 왼쪽
+f4r = box(size = vec(6.5,15,0.5), pos = vec(3.25,22.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#4층 오른쪽
+f4l = box(size = vec(6.5,15,0.5), pos = vec(-3.25,22.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#4층 왼쪽
+f5r = box(size = vec(6.5,15,0.5), pos = vec(3.25,55.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#5층 오른쪽
+f5l = box(size = vec(6.5,15,0.5), pos = vec(-3.25,55.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#5층 왼쪽
+f2r = box(size = vec(6.5,15,0.5), pos = vec(3.25,-37.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#2층 오른쪽
+f2l = box(size = vec(6.5,15,0.5), pos = vec(-3.25,-37.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#2층 왼쪽
+f1r = box(size = vec(6.5,15,0.5), pos = vec(3.25,-67.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#1층 오른쪽
+f1l =box(size = vec(6.5,15,0.5), pos = vec(-3.25,-67.5,6),opacity = 1.5, color = vec(a/255, b/255, c/255))#1층 왼쪽
 #와이어
 box(size = vec(0.5,150,0.5),color = vec(21/255,0/255,255/255))
 
